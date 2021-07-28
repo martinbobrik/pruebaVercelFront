@@ -1,6 +1,7 @@
 import "./cryptoGraphics.css";
 import { useEffect, useState } from "react";
 import { Container, Grid } from "@material-ui/core";
+import Swal from 'sweetalert2'
 
 import btcIcon from "./cryptoIcons/bitcoin.png";
 import ethIcon from "./cryptoIcons/ethereum2.png";
